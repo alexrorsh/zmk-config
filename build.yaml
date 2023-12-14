@@ -17,3 +17,7 @@ include:
     shield: corne_left
   - board: nice_nano_v2
     shield: corne_right
+CONFIG_BT_CTLR_PHY_2M=n
+CONFIG_BT_LL_SW_LLCP=y
+CONFIG_BT_LL_SW_LLCP_LEGACY=n
+CONFIG_BT_GATT_AUTO_SEC_REQ=y
